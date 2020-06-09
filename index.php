@@ -34,7 +34,7 @@ if(isset($_POST['submit'])){
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="page-header header-filter" style="background-image: url('./assets/img/slides/slide21.jpeg');">
+                    <div class="page-header header-filter" style="background-image: url('./assets/img/slides/background.jpeg');">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6 text-left">
@@ -379,13 +379,13 @@ if(isset($_POST['submit'])){
                                     <div class="card-body">
                                         <h5 class="card-description">"Thanks to Power Switch Company for the
                                             construction of high quality panel boards and cables for the city of
-                                            Kandahar.
+                                            Kabul.
                                             After completing the project,
                                             I made sure that the company had more capabilities at the helm of the
                                             industrial power and would like more success for the company."
                                         </h5>
-                                        <h4 class="card-title">Eng Mirwaise</h4>
-                                        <h6 class="card-category text-muted">ENG @ kabul electric.</h6>
+                                        <h4 class="card-title">Eng. Abbas Rezayie</h4>
+                                        <h6 class="card-category text-muted">ENG @ Omid Pishgam OPEC.</h6>
                                         <div class="footer">
                                             <i class="material-icons text-warning">star</i>
                                             <i class="material-icons text-warning">star</i>
