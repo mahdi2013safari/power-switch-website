@@ -1,3 +1,4 @@
+<?php include('server.php') ?>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -22,21 +23,43 @@
         <a href="http://www.powerswitch.af" class="btn btn-primary"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Back to website</a>
         <div class="col-md-12">
 
-            <h2 class="title">Table of subscripts</h2>
+            <h2 class="title">Table of Order</h2>
             <table class="table table-striped">
                 <thead>
-                <tr>
-                    <th>NO</th>
-                    <th>Email</th>
-                    <th>Date</th>
-                </tr>
+                    <tr>
+                        <th>NO</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>subject</th>
+                        <th>product</th>
+                        <th>width</th>
+                        <th>height</th>
+                        <th>depth</th>
+                        <th>Panel Board Description</th>
+                        <th>Wiring Description</th>
+                        <th>Note</th>
+                        <th>Date</th>
+                    </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>mahdi@gamil.com</td>
-                    <td>2018-9-9</td>
-                </tr>
+                    <?php while($row = mysqli_fetch_array($result_order)){ ?>
+                        <tr>
+                            <td><?php echo $row['id'];?></td>
+                            <td><?php echo $row['name'];?></td>
+                            <td><?php echo $row['email'];?></td>
+                            <td><?php echo $row['phone'];?></td>
+                            <td><?php echo $row['subject'];?></td>
+                            <td><?php echo $row['product'];?></td>
+                            <td><?php echo $row['width'];?></td>
+                            <td><?php echo $row['height'];?></td>
+                            <td><?php echo $row['depth'];?></td>
+                            <td><?php echo $row['panel_description'];?></td>
+                            <td><?php echo $row['wiring_description']?></td>
+                            <td><?php echo $row['note']?></td>
+                            <td><?php echo $row['date']?></td>
+                        </tr>
+                    <?php }?>
                 </tbody>
             </table>
         </div>
@@ -56,15 +79,8 @@
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
 <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!--  Google Maps Plugin    -->
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-<!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-<script src=/assets/js/plugins/bootstrap-tagsinput.js"></script>
-<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
-<script src="../assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
-<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
-<script src="../assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
-<!--	Plugin for Small Gallery in Product Page -->
-<script src="../assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+
+
 <!-- Plugins for presentation and navigation  -->
 <script src="../assets/demo/modernizr.js" type="text/javascript"></script>
 <script src="../assets/demo/vertical-nav.js" type="text/javascript"></script>

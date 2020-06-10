@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-translate">
-            <a class="navbar-brand" href="http://www.powerswtich.af"><img src="assets/img/logo.PNG"
+            <a class="navbar-brand" href="http://www.powerswtich.af"><img src="assets/img/logo.png"
                                                                           width="150px" alt=""></a>
             <button type="button" class="ml-auto navbar-toggler" data-toggle="collapse"
                     data-target="#navigation-example3">

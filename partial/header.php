@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
     <link href="./assets/css/material-kit.min.css?v=2.2.0" rel="stylesheet"/>
+    
     <link href="./assets/css/style.css" rel="stylesheet"/>
     <style>
         .img-responsive {

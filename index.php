@@ -1,26 +1,6 @@
 <?php include('admin/server.php') ?>
 <?php include('partial/header.php')?>
-<?php 
-if(isset($_POST['submit'])){
-    $to = "power.switch.co@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $msg = $_POST['message']; // this is the sender's Email address    
-    $subject = "Contact us form website";
-    $subject2 = "from website";
-    $message = "Email: " . $from . "\n" . "Name :" . $first_name . "\n" . "phone: " . $phone . "\n". 
-    "message:" . $msg;
-    $message2 = $message;
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    header('Location: email_success.php');
-
-    }
-?>
 <body>
 <div class="cd-section" id="headers">
     <div class="header-3">

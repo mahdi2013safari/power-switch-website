@@ -89,7 +89,7 @@
                         <a href="http://www.powerswitch.af/street-light.php" class="dropdown-item">
                             Street Pole
                         </a>
-                        <a href="http://www.powerswitch.af/" class="dropdown-item">
+                        <a href="http://www.powerswitch.af/ct-pt.php" class="dropdown-item">
                             CTPT
                         </a>
                         <a href="http://www.powerswitch.af/ats-mts.php" class="dropdown-item">
@@ -138,7 +138,7 @@
 </nav>
 
 <div class="page-header header-filter header-small" data-parallax="true"
-     style="background-image: url('../assets/img/panel/drawing/drawing_simple.JPG');">
+     style="background-image: url('../assets/img/panel/drawing/drawing_simple.jpg');">
     <div class="container">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">

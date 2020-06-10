@@ -39,7 +39,7 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-translate">
-            <a class="navbar-brand" href="http://www.powerswitch.af"><img src="../assets/img/logo.PNG"
+            <a class="navbar-brand" href="http://www.powerswitch.af"><img src="../assets/img/logo.png"
                                                                           width="150px" alt=""></a>
             <button type="button" class="ml-auto navbar-toggler" data-toggle="collapse"
                     data-target="#navigation-example3">
@@ -88,7 +88,7 @@
                         <a href="http://www.powerswitch.af/street-light.php" class="dropdown-item">
                             Street Pole
                         </a>
-                        <a href="http://www.powerswitch.af/" class="dropdown-item">
+                        <a href="http://www.powerswitch.af/ct-pt.php" class="dropdown-item">
                             CTPT
                         </a>
                         <a href="http://www.powerswitch.af/ats-mts.php" class="dropdown-item">

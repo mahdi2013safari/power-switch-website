@@ -14,6 +14,7 @@
         </div>
     </div>
 </div>
+
 <div class="main main-raised">
     <div class="container">
         <div class="about-team team-1">
@@ -26,7 +27,7 @@
                         <b>After submiting form your email will be open.</b>
                     </h5>
                     <b>Your contact info</b>
-                    <form action="" method="post">
+                    <form action="admin/server.php" method="post">
                         <div class="form-group">
                             <input type="text" required class="form-control" name="name" placeholder="Your full name">
                         </div>
@@ -56,15 +57,15 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <textarea name="panel-description" class="form-control" placeholder="Panel board description..." id="" cols="30" rows="10"></textarea>
+                            <textarea name="panel_description" class="form-control" placeholder="Panel board description..." id="" cols="30" rows="10"></textarea>
                         </div>
                         <div class="form-group">
-                            <textarea name="wiring-description" class="form-control" placeholder="Wiring description..." id="" cols="30" rows="10"></textarea>
+                            <textarea name="wiring_description" class="form-control" placeholder="Wiring description..." id="" cols="30" rows="10"></textarea>
                         </div>
                         <div class="form-group">
                             <textarea name="note" class="form-control" placeholder="Any additional information..." id="" cols="30" rows="10"></textarea>
                         </div>
-                        <button class="btn btn-danger" value="submit"  name="submit" type="submit">Send order</button>
+                        <button type="submit" class="btn btn-danger" value="order"  name="order" >Send order</button>
                     </form>
                 </div>
             </div>

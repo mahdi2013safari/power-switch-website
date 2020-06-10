@@ -1,24 +1,4 @@
-<?php 
-if(isset($_POST['submit'])){
-    $to = "power.switch.co@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $msg = $_POST['message']; // this is the sender's Email address    
-    $subject = "Contact us form website";
-    $subject2 = "from website";
-    $message = "Email: " . $from . "\n" . "Name :" . $first_name . "\n" . "phone: " . $phone . "\n". 
-    "message:" . $msg;
-    $message2 = $message;
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    header('Location: email_success.php');
-
-    }
-?>
 <?php include('partial/header.php')?>
 
 <body class="contact-page sidebar-collapse">
@@ -46,20 +26,20 @@ if(isset($_POST['submit'])){
                     <form role="form" id="contact-form" method="post" action="admin/server.php">
                         <div class="form-group">
                             <label for="name" class="bmd-label-floating">Your name</label>
-                            <input type="text" name="name" class="form-control" id="name">
+                            <input type="text" name="name" class="form-control" id="name" require>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmails" class="bmd-label-floating">Email address</label>
-                            <input type="email" class="form-control" name="email" id="exampleInputEmails">
+                            <input type="email" class="form-control" name="email" require id="exampleInputEmails">
                             <span class="bmd-help">We'll never share your email with anyone else.</span>
                         </div>
                         <div class="form-group">
                             <label for="phone" class="bmd-label-floating">Phone</label>
-                            <input type="text" class="form-control" name="phone" id="phone">
+                            <input type="text" class="form-control" name="phone" require id="phone">
                         </div>
                         <div class="form-group label-floating">
                             <label class="form-control-label bmd-label-floating" for="message"> Your message</label>
-                            <textarea class="form-control" name="message" rows="6" id="message"></textarea>
+                            <textarea class="form-control" name="message" rows="6" require id="message"></textarea>
                         </div>
                         <div class="submit text-center">
                             <input type="submit" name="submit" class="btn btn-primary btn-raised btn-round" value="Contact Us">
