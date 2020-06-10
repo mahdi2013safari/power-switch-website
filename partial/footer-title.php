@@ -29,7 +29,7 @@
                 document.write(new Date().getFullYear())
             </script>
             , Designed <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank"><a href="www.facebook.com/mahdi.safari3">Mahdi Safari</a></a> for a better web.
+            <a href="https://www.powerswitch.af" target="_blank"><a href="http://www.facebook.com/mahdi.safari3">Mahdi Safari</a></a> for a better web.
         </div>
     </div>
 </footer>

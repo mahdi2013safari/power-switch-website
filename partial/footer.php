@@ -50,25 +50,25 @@
             <h5>Services</h5>
             <div class="social-feed">
               <div class="feed-line">
-                <a href="www.powerswitch.af/services/wiring.php">
+                <a href="http://www.powerswitch.af/services/wiring.php">
                     <i class="fa fa-chevron-right" style="font-size:12px;"></i>
                     Wiring
                 </a>
               </div>
               <div class="feed-line">
-                <a href="www.powerswitch.af/services/drawing.php">
+                <a href="http://www.powerswitch.af/services/drawing.php">
                     <i class="fa fa-chevron-right" style="font-size:12px;"></i>
                     Drawing Engineering
                 </a>
               </div>
               <div class="feed-line">
-                <a href="www.powerswitch.af/services/installation.php">
+                <a href="http://www.powerswitch.af/services/installation.php">
                     <i class="fa fa-chevron-right" style="font-size:12px;"></i>
                     Installation
                 </a>
               </div>
               <div class="feed-line">
-                <a href="www.powerswitch.af/services/maintance.php">
+                <a href="http://www.powerswitch.af/services/maintance.php">
                     <i class="fa fa-chevron-right" style="font-size:12px;"></i>
                     Maintenance
                 </a>
@@ -102,18 +102,7 @@
                     Contact us
                 </a>
               </div>
-              <div class="feed-line">
-                <a href="#">
-                    <i class="fa fa-chevron-right" style="font-size:12px;"></i>
-                    Blog posts
-                </a>
-              </div>
-              <div class="feed-line">
-                <a href="#">
-                    <i class="fa fa-chevron-right" style="font-size:12px;"></i>
-                    Privacy and Policy
-                </a>
-              </div>
+              
             </div>
           </div>
           <div class="col-md-3">

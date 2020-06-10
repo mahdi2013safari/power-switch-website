@@ -144,7 +144,7 @@
             <div class="col-md-8 ml-auto mr-auto text-center">
                 <h1 class="title">Drawing Engineer</h1>
                 <h4>First of all, we implement all you requirement on paper. and draw a sample of your order.</h4>
-                <a href="order.php" class="btn btn-danger">Order now</a>
+                <a href="../order.php" class="btn btn-danger">Order now</a>
             </div>
         </div>
     </div>

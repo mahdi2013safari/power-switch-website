@@ -142,7 +142,7 @@
             <div class="col-md-8 ml-auto mr-auto text-center">
                 <h1 class="title">Wiring System</h1>
                 <h4>The other side of our company we wiring all type of panel board in medium, and high voltage with international standard.</h4>
-                <a href="#!" class="btn btn-danger">Order now</a>
+                <a href="../order.php" class="btn btn-danger">Order now</a>
             </div>
         </div>
     </div>

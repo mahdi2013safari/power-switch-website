@@ -697,39 +697,33 @@
                 </a>
               </div>
               <div class="feed-line">
-                <a href="index.php">
+                <a href="portfolio.php">
                     <i class="fa fa-chevron-right" style="font-size:12px;"></i>
                     Portfolio
                 </a>
               </div>
               <div class="feed-line">
-                <a href="index.php">
+                <a href="about-us.php">
                     <i class="fa fa-chevron-right" style="font-size:12px;"></i>
                     About us
                 </a>
               </div>
               <div class="feed-line">
-                <a href="index.php">
+                <a href="contact-us.php">
                     <i class="fa fa-chevron-right" style="font-size:12px;"></i>
                     Contact us
                 </a>
               </div>
               <div class="feed-line">
-                <a href="index.php">
+                <a href="order.php">
                     <i class="fa fa-chevron-right" style="font-size:12px;"></i>
-                    Blog posts
-                </a>
-              </div>
-              <div class="feed-line">
-                <a href="index.php">
-                    <i class="fa fa-chevron-right" style="font-size:12px;"></i>
-                    Privacy and Policy
+                    Order Panel board
                 </a>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-            <h5>Instagram Feed</h5>
+            <h5>Facebook Page</h5>
             <div class="fb-page" data-href="https://www.facebook.com/PowerSwitchElectricalCompany/" data-tabs="timeline" data-width="260" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/PowerSwitchElectricalCompany/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PowerSwitchElectricalCompany/">Power Switch Electrical Company</a></blockquote></div>
           </div>
         </div>
@@ -737,28 +731,28 @@
       <hr>
       <ul class="float-left">
         <li>
-          <a href="#pablo">
-            Blog
+          <a href="index.php">
+            Home
           </a>
         </li>
         <li>
-          <a href="#pablo">
-            Presentation
+          <a href="contact-us.php">
+            contact us
           </a>
         </li>
         <li>
-          <a href="#pablo">
-            Discover
+          <a href="about-us.php">
+            About us
           </a>
         </li>
         <li>
-          <a href="#pablo">
-            Payment
+          <a href="order.php">
+            order now
           </a>
         </li>
         <li>
-          <a href="#pablo">
-            Contact Us
+          <a href="services/wiring.php">
+            services
           </a>
         </li>
       </ul>

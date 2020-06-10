@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="navigation-example3">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="www.powerswitch.af" class="nav-link">
+                    <a href="http://www.powerswitch.af" class="nav-link">
                         <i class="material-icons">home</i> Home
                     </a>
                 </li>
@@ -81,7 +81,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="/portfolio.php" class="nav-link">
+                    <a href="http://www.powerswitch.af/portfolio.php" class="nav-link">
                         <i class="material-icons">developer_board</i>Portfolio
                     </a>
                 </li>

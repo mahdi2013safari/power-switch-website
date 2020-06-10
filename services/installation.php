@@ -144,7 +144,7 @@
             <div class="col-md-8 ml-auto mr-auto text-center">
                 <h1 class="title">Installation</h1>
                 <h4>After Build and Wiring all Panel we will offer you for install Panel board in you property.</h4>
-                <a href="order.php" class="btn btn-danger">Order now</a>
+                <a href="../order.php" class="btn btn-danger">Order now</a>
             </div>
         </div>
     </div>
