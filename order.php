@@ -2,38 +2,7 @@
 
 <body class="about-us sidebar-collapse">
 <?php include('partial/menu.php') ?>
-<?php 
-if(isset($_POST['submit'])){
-    $to = "power.switch.co@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $subject = $_POST['subject']; // this is the sender's Email address
-    $product = $_POST['product'];
-    $width = $_POST['width'];
-    $height = $_POST['height'];
-    $depth = $_POST['depth'];
-    $description = $_POST['panel-description'];
-    $wiring = $_POST['wiring-description'];
-    $note = $_POST['note'];
-    $subject = "Order panel board";
-    $subject2 = "from website";
-    $message = "Contact info:" . "\n\n" . "Full name: " . $first_name . "\n\n" . "Email: " . $from . "\n\n" . "Phone: " . $phone .
-     "Order infomation: " . "\n\n" . "subject: " . $subject . "\n" . "product name: " . $product . "\n" . 
-     "Size panel board: " . $width . "(W)," . $height . "(H)," . $depth . "(Depth)" . "\n\n" .
-     "Panel Description: " . $description . "\n\n".  
-     "Wiring Description: " . $wiring . "\n\n" . 
-     "Additional Note: " . $note;
-    $message2 = $message;
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
-?>
 <div class="page-header header-filter header-small" data-parallax="true"
      style="background-image: url('assets/img/order-form.jpg');">
     <div class="container">

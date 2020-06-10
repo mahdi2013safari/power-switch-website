@@ -130,7 +130,7 @@
           </a>
         </li>
         <li>
-          <a href="www.powerswitch.af/services/wiring.php">
+          <a href="http://www.powerswitch.af/services/wiring.php">
             Services
           </a>
         </li>

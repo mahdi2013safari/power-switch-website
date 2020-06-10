@@ -3,7 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="Power switch electrical company, Kabul, Afghanistan | Drawing Engineering">
+    <meta name="description" content="We have more than 12+ years experience in Panelboard and electrical engineering industry and construction panel board around Afghanistan">
+    <meta name="keywords" content="Panelboard, Power Switch Electrical Company, 
+    Switch Board, Afghanistan Kabul, Meter box, Cable tray, compact sub-station, switchboard, socket box, junction box with standard wiring">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Safari">
     <title>Power Switch</title>
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/>
@@ -136,7 +144,7 @@
             <div class="col-md-8 ml-auto mr-auto text-center">
                 <h1 class="title">Drawing Engineer</h1>
                 <h4>First of all, we implement all you requirement on paper. and draw a sample of your order.</h4>
-                <a href="#!" class="btn btn-danger">Order now</a>
+                <a href="order.php" class="btn btn-danger">Order now</a>
             </div>
         </div>
     </div>
